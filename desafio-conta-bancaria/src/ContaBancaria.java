@@ -12,9 +12,9 @@ public ContaBancaria(String nomeCliente, String tipoConta, double saldoInicial) 
 public void mostrarInformacoes() {
     System.out.println("********************");
     System.out.println("\nNome do Cliente: " + nomeCliente);
-    System.out.println("\nTipo de Conta: " + tipoConta);
+    System.out.println("Tipo de Conta: " + tipoConta);
     System.out.println("Saldo atual: " + saldo);
-    System.out.println("********************");
+    System.out.println("\n********************");
 }
 
 public void consultarSaldo() {
@@ -23,7 +23,7 @@ public void consultarSaldo() {
 
 public void receberValor(double valor) {
     saldo += valor;
-    System.out.println("Valor recebido com sucesso !");
+    System.out.println("Valor recebido com sucesso!");
     System.out.println("Seu saldo atual é de: " + saldo);
 }
 
